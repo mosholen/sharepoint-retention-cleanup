@@ -34,9 +34,15 @@ This tool is designed for exactly such cases – when automated deletion won’t
    git clone https://github.com/mosholen/sharepoint-retention-cleanup.git
    cd sharepoint-retention-cleanup
 
+2. Create .env file with Azure AD app credentials:
+```bash
+AZURE_TENANT_ID=<your_tenant_id>
+AZURE_CLIENT_ID=<your_app_registration_client_id>
+AZURE_CLIENT_SECRET=<your_client_secret>
+```
 
-4. **Run the script**
+3. **Run the script**
    ```bash
    dotnet run delete_sharepoint_items_and_folders.cs --drive "driveID" --root "rootID" --months 3
 
-5. You can optionaly use ```--dry-run```  for testing
+4. You can optionaly use ```--dry-run```  for testing
