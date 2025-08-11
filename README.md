@@ -36,8 +36,7 @@ This tool is designed for exactly such cases – when automated deletion won’t
 
 
 4. **Run the script**
-   dotnet run delete_sharepoint_items_and_folders.cs \
-  --drive "driveID" \
-  --root "rootID" \
-  --months 3 \
-  --dry-run
+   ```bash
+   dotnet run delete_sharepoint_items_and_folders.cs --drive "driveID" --root "rootID" --months 3
+
+5. You can optionaly use ```--dry-run```  for testing
