@@ -31,7 +31,7 @@ This tool is designed for exactly such cases – when automated deletion won’t
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/<username>/sharepoint-retention-cleanup.git
+   git clone https://github.com/mosholen/sharepoint-retention-cleanup.git
    cd sharepoint-retention-cleanup
 
 
